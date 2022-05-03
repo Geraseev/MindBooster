@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+body{
+    background-color: #2e2d4d;
+    font-family: 'Roboto',sans-serif;
+}
+
+header{
+    background-color: #413d5d;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    margin: 23px;
+    
+}
+li{
+    color: #e0e0e0;
+    list-style-type: none;
+    padding-left: 2rem;
+    cursor: pointer;
+
+}
+
+header h4{
+    color: #e0e0e0;
+    display: flex;
+    margin-top: 22px;
+    margin-left: -1000px;
+}
+
+img {
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+h2{
+    color: #D9D9D9;
+    font-family: 'Ubuntu',sans-serif;
+    margin-left: 40px;
+    text-align: left;
+    margin-top: 37px;
+}
+
+h3{
+    color: #D9D9D9;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card1 h3{
+    color: #414141;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card h5{
+    color: #999999;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#desc{
+    text-align: top;
+    height: 90px;
+}
+
+.card1{
+    width: 160px;
+    height: 220px;
+    padding: 20px;
+    margin-left: 580px;
+    margin-top: 30px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
+}
+
+hr{
+    color: #D9D9D9;
+    margin-top: 15px;
+}
+
+#btn-submit{
+    font-family: 'Roboto',sans-serif;
+    margin-top: 30px;
+    margin-left: 610px;
+    height: 30px;
+    width: 140px;
+    background-color: #5e5796;
+    color: #D9D9D9;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+#btn-submit:hover{
+    background-color: rgb(62, 53, 70);
+    color: #D9D9D9;
+}
+
+.error-validation{
+    color: red;
+    position: absolute;
+    top: 320px;
+    left: 450px;
+    font-size: 12px;
+}
+
+.template {
+    display: none;
+}

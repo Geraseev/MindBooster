@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+:root{
+    --primary: #FFFFFF;
+    --secundary: #FFFFFF;
+    --dark: #212121;
+    --light: #F3F3F3;
+}
+
+body{
+    background-color: #2e2d4d;
+    font-family: 'Roboto',sans-serif;
+}
+
+header{
+    background-color: #413d5d;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    margin: 23px;
+    
+}
+li{
+    color: #D9D9D9;
+    list-style-type: none;
+    padding-left: 2rem;
+    cursor: pointer;
+
+}
+
+
+header h4{
+    color: #e0e0e0;
+    display: flex;
+    margin-top: 22px;
+    margin-left: -1000px;
+}
+
+header img {
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+
+h1{
+    color: #8e49e3;
+    font-family: 'Ubuntu',sans-serif;
+    text-align: center;
+    margin-top: 37px;
+}
+
+h2{
+    color: #D9D9D9;
+    text-align: center;
+}
+
+.set{
+    display: flex;
+    margin: 70px auto;
+    
+}
+
+h4{
+    color: #D9D9D9;
+    margin-left: 250px;
+    margin-top: -30px;
+}
+
+.card1{
+    width: 160px;
+    height: 220px;
+    margin-bottom: 30px;
+    padding: 20px;
+    margin-left: -240px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.card1 h2{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 30px;
+    margin-top: -150px;
+    text-align: center;
+    color: #141414;
+}
+
+.card1 img{
+    height: 40px;
+    width: 40px;
+    margin-left: -80px;
+    margin-top: 0px;
+}
+
+.card1 h4{
+    color: #d8fc04;
+    margin-left: -130px;
+    margin-top: 50px;
+    width: 50px;
+}
+
+.card2{
+    width: 160px;
+    height: 220px;
+    margin-top: -90px;
+    padding: 20px;
+    margin-left: 540px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
+    opacity: 0;
+}
+
+.card2 img{
+    height: 90px;
+    width: 90px;
+    margin-left: -240px;
+    margin-top: 0px;
+}
+
+.card2 h3{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card2 h2{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 30px;
+    margin-top: -80px;
+    text-align: center;
+    color: #141414;
+}
+
+.cardInner{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.show-card{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+}
+
+hr{
+    margin-top: 20px;
+}
