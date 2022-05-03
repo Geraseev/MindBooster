@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="/styles/cadastro.css"/>
+
+    </head>
+    <body>
+        <header>
+            <img src="/scr/imagens/logo.png" />
+            <h4>QI Labs</h4>
+            <ul class="nav">
+                    <a href="login.html">Entrar</a>
+            </ul>
+        </header>
+
+        <h1>Cadastre-se</h1>
+        <h5>Com a sua conta, você poderá gerenciar suas coleções de flash cards.</h5>
+        <div class="areaC">
+            <form id="register-form">
+                <h5>Nome</h5>
+                <input id="nome" type="text" class="input" placeholder="Insira o seu nome completo" data-required>
+                <h5>E-mail</h5>
+                <input id="email" type="email" class="input" placeholder="Insira o seu e-mail" data-min-lenght="3" data-email-validate>
+                <h5>Senha</h5>
+                <input id="password" name="password" type="password" class="input" data-min-lenght="8" data-password-validate data-required>
+                <h6>Use ao menos 8 caracteres contendo letras, números e ao menos um carcter especial</h6>
+                <h5>Repitir a senha</h5>
+                <input id="passwordconfirmation" type="password" class="input" data-equal="password" data-required>
+                <button type="submit" id="btn-submit" onclick="signup()">Cadastrar</button>
+            </form>
+        </div>
+        <p class="error-validation template"></p>
+        <script src="/scr/cadastro.js"></script>
+    </body>
+</html>
